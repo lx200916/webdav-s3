@@ -42,3 +42,6 @@ A `naive` WebDAV Gateway for S3 Compatible Services powered by Cloudflare Worker
 * Get调用目前仍采用服务端转发,可能会导致极高延迟(部分客户端对307等状态码兼容性不好).
 * Cloudflare的地理位置带来的连通性问题(目前腾讯云等厂商的云函数服务似乎暂不支持如 `PROPFIND` 等HTTP 拓展方法,无法部署)
 
+## Thanks
+* [AWS4Fetch](https://github.com/mhart/aws4fetch)
+* DogeCast (For Testing)
