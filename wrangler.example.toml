@@ -1,0 +1,8 @@
+name = "webdav-s3"
+main = "src/index.ts"
+compatibility_date = "2023-01-28"
+[vars]
+BUCKET_BASEURL = "https://non-exists.s3.ladydaily.com"
+AccessKeyId = ""
+SecretAccessKey = ""
+Auth = ""
