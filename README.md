@@ -43,9 +43,9 @@ A `naive` WebDAV Gateway for S3 Compatible Services powered by Cloudflare Worker
 * Cloudflare的地理位置带来的连通性问题(目前腾讯云等厂商的云函数服务似乎暂不支持如 `PROPFIND` 等HTTP 拓展方法,无法部署)
 
 ## TODO
-[ ] 文件/集合Metadata缓存和失效机制
-[ ] 协议实现
-[ ] 错误处理
+- [ ] 文件/集合Metadata缓存和失效机制  
+- [ ] 协议实现  
+- [ ] 错误处理  
 
 ## Thanks
 * [AWS4Fetch](https://github.com/mhart/aws4fetch)
